@@ -170,7 +170,7 @@ def extract_resume_sections(input_text):
     return extracted_data
 
 # Streamlit App
-st.title("Resume Parser")
+st.title("CV Snap🤳")
 
 uploaded_files = st.file_uploader("Upload one or more resumes (PDF)", type="pdf", accept_multiple_files=True)
 
